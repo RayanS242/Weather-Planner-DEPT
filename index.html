@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>DEPT Weather Planner</title>
+  </head>
+  <body>
+    <section class="weather-page">
+      <article class="weather-planner">
+        <div class="weather-planner-div">
+          <svg
+            width="73"
+            height="20"
+            viewBox="0 0 73 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.4602 9.79C19.4602 4.823 16.7862 1 9.97822 1H2.69922V18.574H9.97722C16.7852 18.574 19.4612 14.75 19.4612 9.789L19.4602 9.79ZM14.5082 9.79C14.5082 13.258 12.5782 14.547 9.90222 14.547H7.42622V5.027H9.90222C12.5782 5.027 14.5082 6.32 14.5082 9.789V9.79ZM20.5902 18.574H34.3522V14.574H25.3202V11.56H33.2502V7.762H25.3202V5.004H34.1252V1H20.5902V18.574ZM50.3632 7.105C50.3632 2.672 47.5632 1 43.2112 1H35.6842V18.574H40.4102V13.207H43.2102C47.5622 13.207 50.3632 11.535 50.3632 7.105ZM45.4652 7.105C45.4652 8.825 44.6652 9.535 42.7382 9.535H40.4102V4.672H42.7382C44.6642 4.672 45.4652 5.382 45.4652 7.105ZM50.8832 5.102H56.3592V18.574H61.0862V5.102H66.5662V1H50.8832V5.102ZM64.6022 16.113C64.6022 17.703 65.8752 18.993 67.4422 18.993C69.0162 18.993 70.3012 17.703 70.3012 16.113C70.3012 14.523 69.0162 13.223 67.4412 13.223C65.8752 13.223 64.6022 14.523 64.6022 16.113ZM65.1482 16.113C65.1482 14.801 66.1722 13.727 67.4412 13.727C68.7152 13.727 69.7502 14.801 69.7502 16.113C69.7502 17.426 68.7152 18.488 67.4412 18.488C66.1712 18.488 65.1482 17.426 65.1482 16.113ZM66.1092 17.539H67.0082V16.559H67.5202L68.0552 17.539H69.0272L68.3792 16.379C68.6762 16.254 68.9022 15.914 68.9022 15.531C68.9022 14.867 68.4772 14.547 67.7582 14.547H66.1092V17.539ZM67.9922 15.547C67.9922 15.785 67.8442 15.887 67.5592 15.887H67.0082V15.257H67.5582C67.8442 15.257 67.9922 15.332 67.9922 15.547Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <h1 class="DEPT-title">DEPT® weather planner</h1>
+          <p class="dept-description">
+            Picture this: an application that doesn't just tell you the weather,
+            but also helps you plan your activities around it. Imagine knowing
+            exactly the perfect day to plan that hike, or when to avoid the
+            outdoor concert due to an unexpected shower. That's exactly what the
+            Dept Weather Planner offers you.
+          </p>
+          <p class="dept-description-2">
+            Built with cutting-edge technologies, our weather planner brings you
+            accurate, real-time weather data with a slick and user-friendly
+            interface. But it's not just a weather app; it's an intuitive daily
+            planner that syncs with the weather. With a range of activities to
+            choose from, it suggests the best options based on current and
+            forecasted weather conditions.
+          </p>
+          <input type="checkbox" id="btn" class="read-more-btn" alt="read more"/>
+          <label for="btn"></label>
+        </div>
+        <div class="daily-forecast">
+          <h2 class="daily-forecast-title">Want to get a daily forecast?</h2>
+          <form type="submit" action="#">
+            <input type="email" id="email" name="email" class="input-email" placeholder="Enter your e-mailaddress" autocomplete="email" required/>
+            <button type="submit" class="input-button">Submit</button>
+          </form>
+        </div>
+      </article>
+
+      <article class="weather-acitivities">
+        <div class="current-temperature">
+          <div id="temp-container" class="weather">
+            <h3 class="temperature"></h3>
+          </div>
+          <div id="weather-container" class="weather-2">
+            <p class="temperature-title">
+             
+            </p>
+            <p class="temperature-description">
+             
+            </p>
+          </div>
+        </div>
+
+        <div id="activities-container" class="acitivities">
+          <h4>Some things you could do:</h4>
+          <!-- <div class="pictures"> -->
+            <!-- <div class="image-div"> -->
+            <!-- <img
+              class="activities-picture"
+              alt="picture of a snowman"
+              src="https://images.unsplash.com/photo-1605961206301-66b907a1486c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fFNub3clMjBTY3VscHR1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+            /> -->
+          <!-- </div> -->
+            <!-- <div class="activity-div"> -->
+              <!-- <p class="activity"></p>
+              <p class="activities-description">
+              </p> -->
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div id="no-activities-container" class="acitivities">
+          <h4>Some things you should not do:</h4>
+          <!-- <div class="pictures">
+            <img
+              class="activities-picture"
+              alt="picture of a snowman"
+              src="https://images.unsplash.com/photo-1605961206301-66b907a1486c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fFNub3clMjBTY3VscHR1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+            />
+            <div class="activity-div">
+              <p class="activity"></p>
+              <p class="activities-description">
+           
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </article>
+    </section>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
