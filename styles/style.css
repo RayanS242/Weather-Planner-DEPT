@@ -26,8 +26,6 @@ body {
 
 .weather-planner {
     color: white;
-    /* padding-left: 1rem;
-    padding-top: 1rem; */
     padding-bottom: 2rem;
     margin-right: -3.2rem;
 }
@@ -38,7 +36,6 @@ body {
     padding-right: 4rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    /* margin-right: 0; */
 }
 
 .dept-description {
@@ -172,7 +169,6 @@ input[type="checkbox"]:checked ~ label:before {
 .temperature-title {
     margin-top: 0;
     padding-right: 1rem;
-    /* font-weight: bold; */
 }
 
 .temperature-description {
@@ -185,7 +181,6 @@ input[type="checkbox"]:checked ~ label:before {
 .acitivities {
     padding-top: .5rem;
     font-size: 20px;
-    /* border-bottom: 1px solid black; */
     margin-bottom: 1rem;
 }
 
@@ -204,7 +199,6 @@ input[type="checkbox"]:checked ~ label:before {
     padding-bottom: 1rem;
     margin-bottom: 3.5rem;
     padding-right: 1rem;
-    /* width: 25rem; */
     border-bottom: 1px solid black;
 }
 
@@ -255,12 +249,11 @@ input[type="checkbox"]:checked ~ label:before {
     .pictures {
         display: flex;
         flex-direction: row;
-        /* padding-bottom: 1rem; */
     }
 
 }
 
-/* Tablet 1 */
+/* Tablet 2 */
 
 @media screen and (min-width: 820px) {
     .weather-page {
@@ -435,7 +428,6 @@ input[type="checkbox"]:checked ~ label:before {
     .pictures {
         display: flex;
         flex-direction: row;
-        /* padding-bottom: 1rem; */
     }
 
     .activity-div {
@@ -606,7 +598,6 @@ input[type="checkbox"]:checked ~ label:before {
     .pictures {
         display: flex;
         flex-direction: row;
-        /* padding-bottom: 1rem; */
     }
 
 }
